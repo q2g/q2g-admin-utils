@@ -1,0 +1,44 @@
+{
+    "interval" : 1,
+    "portQlik" : 4242,
+    "hostname" : "nb-fc-215407",
+    "logMode" : "debug",
+    "certPath" : "C:/ProgramData/Qlik/Sense/Repository/Exported Certificates/.Local Certificates",
+    "logPath" : "C:/SenseData/Logs",
+    "properties" : {
+        "exportDirectory" : "exportDir"
+    },
+    "mailingModule" : {
+        "directMail" : false,
+        "receiverMail" : "",
+        "userEmail" : "",
+        "password" : "",
+        "host" : "",
+        "port" : ""
+    },
+    "AppJsonFolder" : "C:/SenseData/init",
+    "TaskJsonFolder" : "C:/SenseData/init",
+    "TaskErrorJsonFolder" : "C:/SenseData/init",
+    "fullAppExportModule" : {
+        "exportPath" : "C:/SenseData/FullExport",
+        "automatic" : {
+            "monthly" : {
+                "activate" : true,
+                "dayOfMonth" : 1,
+                "startDate" : "07.04.2016",
+                "startTime" : "08:30:00"
+            },
+            "weekly" : {
+                "activate" : false,
+                "weekDay" : 1,
+                "startDate" : "07.04.2016",
+                "startTime" : "08:30:00"
+            },
+            "daily" : {
+                "activate" : false,
+                "startDate" : "07.04.2016",
+                "startTime" : "08:30:00"
+            }
+        }
+    }
+}

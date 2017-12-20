@@ -1,0 +1,6 @@
+node_modules/
+Doku/
+
+index_js.log
+package-lock.json
+*.log
