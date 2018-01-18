@@ -84,6 +84,8 @@ qrs.prototype.getAllApps = function(callback) {
     
     var path = '/qrs/app/full';
     var method = 'GET';
+
+    console.log(createReqObjAlt(path, method))
     
     https.get(createReqObjAlt(path, method), function(res) {
         winston.log('debug', 'File: qrs/index.js; Function: getAllApps; Message: Function called Method http.get()');

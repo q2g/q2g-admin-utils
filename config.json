@@ -1,7 +1,7 @@
 {
     "interval" : 1,
     "portQlik" : 4242,
-    "hostname" : "nb-fc-215407",
+    "hostname" : "",
     "logMode" : "debug",
     "certPath" : "C:/ProgramData/Qlik/Sense/Repository/Exported Certificates/.Local Certificates",
     "logPath" : "C:/SenseData/Logs",
