@@ -123,7 +123,7 @@ qrs.prototype.getAllApps = function(callback) {
             winston.log('error', 'File: qrs/index.js; Function: getAllApps; Message: No Succesfull Response from Server Code: ' + res.statusCode);
             callback(new Error('https Response Code is not 200'))
         };
-    }).on('error', function(err) {
+    }).on('error', function(error) {
         winston.log('error', 'File: qrs/index.js; Error in Location: qrs.prototype.getAllApps; Message: ' + error.message);
         callback(new Error('https Request sends back a error'))
     });

@@ -150,12 +150,12 @@ eventEmitter.on('eGetStatusOfApps', function(data) {
 
 
 // Start Intervall
-// setInterval(function() {
+setInterval(function() {
 
   winston.log('verbose', 'Event: setInterval; Message: New Interval run')
 
-    // eventEmitter.emit('eGetAllTasks');
+    eventEmitter.emit('eGetAllTasks');
     eventEmitter.emit('eGetAllApps');
     // fae.startFullExport();
 
-// }, interval);
+}, interval);
