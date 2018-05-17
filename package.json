@@ -1,0 +1,18 @@
+{
+  "name": "qlik-sense-administration-utils",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "serverside extension for assist administrative work",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomashaenig/qlik-sense-administration-utils"
+  },
+  "author": "Thomas Häning, Konrad Mattheis (qlik2go) ",
+  "main": "index.js",
+  "dependencies": {
+    "winston": "^2.4.0",
+    "nodemailer": "^4.4.0",
+    "nodemailer-direct-transport": "^3.3.2",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
